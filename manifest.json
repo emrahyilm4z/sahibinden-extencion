@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Araç Kriter Kontrolü",
+  "version": "1.0",
+  "description": "Sahibinden.com araç detay sayfasındaki belirlediğiniz kriterleri (değişen, boya, tramer, vb.) kontrol eder ve uyarı verir.",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.sahibinden.com/ilan/*/detay*",
+        "*://*.sahibinden.com/listing/*/detail*"
+      ],
+      "js": ["content.js"],
+      "css": ["content.css"]
+    }
+  ]
+}

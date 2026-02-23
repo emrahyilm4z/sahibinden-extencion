@@ -1,0 +1,105 @@
+#car-criteria-warning {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    z-index: 9999999;
+    background-color: #ff3b3b;
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    border: 3px solid #b30000;
+    border-radius: 12px;
+}
+
+#car-criteria-warning .warning-container {
+    padding: 12px 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+#car-criteria-warning .warning-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+#car-criteria-warning .warning-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: auto;
+    border-left: 2px solid rgba(255, 255, 255, 0.4);
+    padding-left: 15px;
+}
+
+#car-criteria-warning .warning-nav button {
+    background: rgba(0, 0, 0, 0.2);
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 14px;
+    transition: background 0.2s;
+}
+
+#car-criteria-warning .warning-nav button:hover {
+    background: rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+}
+
+#car-criteria-warning .warning-icon {
+    font-size: 24px;
+}
+
+#car-criteria-warning .warning-message {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#car-criteria-warning .warning-words {
+    background-color: #fff;
+    color: #ff3b3b;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-weight: 700;
+    text-transform: capitalize;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+#car-criteria-warning #close-warning {
+    background: rgba(0, 0, 0, 0.1);
+    border: none;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s ease;
+}
+
+#car-criteria-warning #close-warning:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.car-criteria-highlight {
+    background-color: #ffff00 !important;
+    color: #cc0000 !important;
+    font-weight: 900 !important;
+    padding: 2px 6px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(255, 255, 0, 0.8) !important;
+    font-size: 110% !important;
+}
