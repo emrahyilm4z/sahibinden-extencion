@@ -2,6 +2,8 @@
 
 Bu eklenti, Sahibinden.com web sitesindeki araç ilanlarını gezerken ilan açıklamalarında yer alabilecek **riskli kelimeleri (değişen, boya, tramer, ağır hasar vb.)** otomatik olarak tarar ve eğer bulursa ekranın üst kısmında belirgin bir uyarı kutusu gösterir.
 
+![Uyarı Kutusu Ekran Görüntüsü](screenshot.png)
+
 Ayrıca bulunan yasaklı kelimeleri ilan metni içinde **sarı fosforlu ve kırmızı yazılı** şekilde vurgular, böylece uzun numaralar ve açıklamalar arasında kaybolmadan direkt olarak kelimeleri görebilirsiniz.
 
 ## Özellikler
